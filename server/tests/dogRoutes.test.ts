@@ -18,7 +18,7 @@ describe("dogRoutes", () => {
     app.use("/dogs", dogRoutes);
   });
 
-  // ✅ TEST 5/5: Routes Test - GET /dogs/random Route Configuration
+  // TEST 5/5: Routes Test - GET /dogs/random Route Configuration
   it("Should have GET /dogs/random route that calls controller", async () => {
     // Arrange:  Mock service to return data
     const mockDogData = {

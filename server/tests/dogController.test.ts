@@ -13,7 +13,7 @@ describe("dogController", () => {
 
   describe("getDogImage", () => {
 
-    // ✅ TEST 3/5: Controller Positive Test - Successfully Returns Response
+    // TEST 3/5: Controller Positive Test - Successfully Returns Response
 
     it("Should return success response when service succeeds", async () => {
       // Arrange:  Prepare mock data and response object
@@ -44,7 +44,7 @@ describe("dogController", () => {
       expect(dogService.getRandomDogImage).toHaveBeenCalledTimes(1);
     });
 
-    // ❌ TEST 4/5: Controller Negative Test - Service 
+    // TEST 4/5: Controller Negative Test - Service 
 
     it("Should return error response when service throws error", async () => {
       // Arrange: Mock service  | Mock service to throw error
